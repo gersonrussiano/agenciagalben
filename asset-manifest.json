@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/agenciagalben/static/css/main.2fc33ab2.css",
+    "main.js": "/agenciagalben/static/js/main.07f31ac2.js",
+    "static/js/787.6f244b99.chunk.js": "/agenciagalben/static/js/787.6f244b99.chunk.js",
+    "static/media/Roboto-BoldItalic.woff": "/agenciagalben/static/media/Roboto-BoldItalic.55ec21a424e8fa019f8e.woff",
+    "static/media/Roboto-MediumItalic.woff": "/agenciagalben/static/media/Roboto-MediumItalic.1c62a98925bbc2a62dba.woff",
+    "static/media/Roboto-BlackItalic.woff": "/agenciagalben/static/media/Roboto-BlackItalic.8a4f4c0111c8ec54cc59.woff",
+    "static/media/Roboto-LightItalic.woff": "/agenciagalben/static/media/Roboto-LightItalic.e4f6b796870e773f400c.woff",
+    "static/media/Roboto-Italic.woff": "/agenciagalben/static/media/Roboto-Italic.a1532c367a2f4314f9b1.woff",
+    "static/media/Roboto-ThinItalic.woff": "/agenciagalben/static/media/Roboto-ThinItalic.6a7b263e3c7d33995c4c.woff",
+    "static/media/Roboto-Bold.woff": "/agenciagalben/static/media/Roboto-Bold.4ce816a66fe86136fb05.woff",
+    "static/media/Roboto-Medium.woff": "/agenciagalben/static/media/Roboto-Medium.27bc2dcce01cb0ce2e07.woff",
+    "static/media/Roboto-Black.woff": "/agenciagalben/static/media/Roboto-Black.3a6ed9b36b9ea5154221.woff",
+    "static/media/Roboto-Light.woff": "/agenciagalben/static/media/Roboto-Light.3032bf24cfe04ec43014.woff",
+    "static/media/Roboto-Regular.woff": "/agenciagalben/static/media/Roboto-Regular.12865a40abd6ca9c16fb.woff",
+    "static/media/Roboto-Thin.woff": "/agenciagalben/static/media/Roboto-Thin.7ab73fde3fee78e097b9.woff",
+    "static/media/Dubai-Bold.woff": "/agenciagalben/static/media/Dubai-Bold.98c9f3e4215180a89b79.woff",
+    "static/media/Dubai-Medium.woff": "/agenciagalben/static/media/Dubai-Medium.7487776b1ab8e634b1e5.woff",
+    "static/media/Dubai-Regular.woff": "/agenciagalben/static/media/Dubai-Regular.66afb415bd9da68e156c.woff",
+    "static/media/Dubai-Light.woff": "/agenciagalben/static/media/Dubai-Light.51da01230e7f6d5f5f95.woff",
+    "static/media/BebasNeue-Regular.woff": "/agenciagalben/static/media/BebasNeue-Regular.2f947fb8e8d77a84e875.woff",
+    "static/media/Galben-Pixel.woff": "/agenciagalben/static/media/Galben-Pixel.09bd47b3f4683ba1a23a.woff",
+    "static/media/dogica.woff": "/agenciagalben/static/media/dogica.25c4b7563d4969beb2fc.woff",
+    "static/media/dogicapixelbold.woff": "/agenciagalben/static/media/dogicapixelbold.396feb9025e5b2bf9b98.woff",
+    "static/media/dogicabold.woff": "/agenciagalben/static/media/dogicabold.756796c53b9c97102c6c.woff",
+    "static/media/galben-logomarca.svg": "/agenciagalben/static/media/galben-logomarca.0864c61fd36ab915299bed75038ff550.svg",
+    "static/media/logo.svg": "/agenciagalben/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/agenciagalben/index.html",
+    "main.2fc33ab2.css.map": "/agenciagalben/static/css/main.2fc33ab2.css.map",
+    "main.07f31ac2.js.map": "/agenciagalben/static/js/main.07f31ac2.js.map",
+    "787.6f244b99.chunk.js.map": "/agenciagalben/static/js/787.6f244b99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fc33ab2.css",
+    "static/js/main.07f31ac2.js"
+  ]
+}
