@@ -1,0 +1,128 @@
+/*-- logomarca --*/
+.navbar-brand img {
+    width: 264px;
+    height: auto;
+    margin-top: 6.5px;
+    justify-self: start;
+    cursor: pointer;
+}
+
+/*--- navbar ---*/
+.header {
+    background-color: var(--vaca-preta);
+    width: 100%;
+    height: 80px;
+    border-bottom: 3px solid var(--vaca-verde);
+}
+
+.NavbarItems {
+    background-color: var(--vaca-preta);
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin: 2rem 0;
+}
+
+.nav-links {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 14px;
+    color: var(--vaca-branca);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+    color: var(--vaca-amarela);
+    transition: all 0.2s ease-out;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .NavbarItems {
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        margin-top: 3px;
+        justify-content: center;
+    }
+
+    .NavbarItems ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .NavbarItems ul li a {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+
+    .nav-menu.active {
+        background-color: var(--vaca-preta);
+        left: 0;
+        transition: all 0.5s ease;
+        z-index: var(--z-normal);
+    }
+
+    .nav-links {
+        font-size: 22.5px;
+        text-align: center;
+        padding: 15px 0px;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        border-radius: 0;
+    }
+
+    .navbar-brand {
+        width: 210px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(10%, 6.5%);
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: -2.5px;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        color: var(--vaca-branca);
+    }
+
+    .fa-times {
+        color: var(--vaca-branca);
+        font-size: 2rem;
+    }
+}

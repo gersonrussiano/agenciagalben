@@ -1,0 +1,235 @@
+/*-- fontes --*/
+/*- Dubai -*/
+@font-face {
+  font-family: 'Dubai Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Dubai-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Dubai Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Dubai-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Dubai Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Dubai-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Dubai Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Dubai-Bold.woff') format('woff');
+}
+
+/*- Roboto -*/
+@font-face {
+  font-family: 'Roboto Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Thin Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-LightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Meidum Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Roboto-BlackItalic.woff') format('woff');
+}
+
+/*- Galben Pixel -*/
+@font-face {
+  font-family: 'Galben Pixel';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/Galben-Pixel.woff') format('woff');
+}
+
+/*- Dogica Pixel -*/
+@font-face {
+  font-family: 'Dogica';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/dogica.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Dogica Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/dogicabold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Dogica Pixel Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/dogicapixelbold.woff') format('woff');
+}
+
+/*- Bebas Neue -*/
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fontes/BebasNeue-Regular.woff') format('woff');
+}
+
+/*-- variáveis --*/
+/*- cores -*/
+:root {
+  --vaca-amarela: #ffff00;
+  --vaca-preta: #070707;
+  --vaca-branca: #ffffff;
+  --vaca-verde: #00ff66;
+  --vaca-azul: #0055FE;
+  --vaca-laranja: #ff6600;
+  --vaca-roxa: #aa00aa;
+  --vaca-cinza: #bbbbbb;
+  --vaca-chumbo: #2b2b2b;
+  --vaca-vermelha: #ff472e;
+  --vaca-violeta: #5a00bf;
+  --vaca-abacate: #80ff00;
+  --vaca-cenoura: #ffa600;
+  --vaca-geladinho: #0099ff;
+  --vaca-gelo: #eeeeee;
+  --vaca-amarelo-claro: #fff38e;
+  --vaca-verde-claro: #90e8ab;
+  --vaca-creme: #e8dfda;
+}
+
+/*- margens -*/
+/*- z-index -*/
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --tooltip: 10;
+  --fixed: 100;
+}
+
+/*- layout -*/
+*,
+::before,
+::after {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto 0 auto;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+
+.grid-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-50 {
+  position: relative;
+  float: left;
+  max-width: 50%;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-33 {
+  position: relative;
+  float: left;
+  max-width: 33, 33%;
+  width: 33, 33%;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
